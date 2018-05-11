@@ -9,6 +9,8 @@ The code compiles correctly. Spline.h file was added to the src folder after the
 ### The car is able to drive at least 4.32 miles without incident.
 I drove the car for 6-7 miles without any incidents.
 
+![Driving](image.png)
+
 ### The car drives according to the speed limit.
 No message for speed limit violation was displayed.
 
