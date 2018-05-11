@@ -389,7 +389,7 @@ double ref_vel = 0;
 		}	
 
 		// fitting a trajectory after the polynomial is caluclated using slpine
-		double target_x = 30;
+		double target_x = 25;
 		double target_y = s(target_x);
 		double target_dist = sqrt((target_x * target_x) + (target_y * target_y));
 
