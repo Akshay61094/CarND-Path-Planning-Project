@@ -45,6 +45,8 @@ This portion of code decides what to do after making sense of the environment fr
 
 3. Trajectory Genreation(line 321 - line 410) :
 This portion of the code calculates the trajectory of the car to be followed based on the speed and lane output from the behavior portion, car coordinates and past path points.
+
 Firstly, we take two points from the previous trajectory then we take 3 points that are at a far distance and then we initialize are spline calculation. The points are converted to local car system to make calculation easier.
+
 To ensure more continuity the past points of previous trajectory are copied to new trajectory and the rest of the points are calculated by evaluating spline and finally these point are also converted back to global coordinate system.
 
